@@ -1,0 +1,232 @@
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+    .about-title p {
+        width: 500px;
+    }
+
+    .product-block h3 {
+        width: 260px;
+    }
+
+    .about-title {
+        margin-left: 40px;
+    }
+
+    .hero {
+        align-items: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-title h1 {
+        font-size: 34px;
+    }
+
+    .hero-title p {
+        font-size: 18px;
+
+    }
+
+    .about-img {
+        width: 90%;
+    }
+
+    .hero-img {
+        width: 90%;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-icon {
+        display: none;
+    }
+    .navbar-a{
+        display: none;
+    }
+    .navbar select{
+        display: none;
+    }
+
+    .hamburger-menu{
+        display: block;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-img {
+        padding-top: 60px;
+    }
+
+    .hero-title h1 {
+        padding-left: 40px;
+    }
+
+    .hero-title p {
+        padding-left: 40px;
+        width: 75%;
+    }
+
+    .hero-title button {
+        margin-left: 114px;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .product-block-g {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .product-block {
+        padding: 25px 0;
+
+    }
+
+    .dsi div h4{
+        width: 272px;
+
+    }
+}
+
+@media (max-width: 576px) {
+
+
+    .dsi {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    ;
+    }
+
+
+    .dsi-one {
+        padding-bottom: 50px;
+    }
+
+    .dsi-two {
+        margin-left: -50px;
+
+    }
+}
+
+@media (max-width: 450px) {
+    .dsi {
+        width: 90%;
+    }
+
+    .hero-title h1 {
+        font-size: 27px;
+    }
+
+    .hero-title p {
+        width: 70%;
+        font-size: 15px;
+        padding-left: 56px;
+    }
+
+    .hero-title button {
+        width: 110px;
+        height: 48px;
+        font-size: 18px;
+    }
+
+    .about-title p {
+        width: 90%;
+    }
+
+    .about-title h1 {
+        font-size: 28px;
+        width: 90%;
+
+    }
+}
+
+@media (max-width: 400px) {
+    .footer p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 375px) {
+    .dsi{
+        padding-left: 23px;
+    }
+}
+
+@media (max-width: 350px) {
+    .hero-title h1{
+        padding-left: 34px;
+        width: 90%;
+        font-size: 22px;
+    }
+    .hero-title p{
+        width: 90%;
+        font-size: 15px;
+        padding-left: 35px;
+    }
+    .hero-title button {
+        width: 94px;
+        height: 35px;
+        font-size: 15px;
+        margin-left: 90px;
+
+    }
+    .product-title{
+        font-size: 25px;
+    }
+    .footer p{
+        font-size: 13px;
+
+    }
+    .navbar-img{
+        width: 35%;
+    }
+    .about-title h1{
+        font-size: 23px;
+    }
+    .about-title p{
+        width: 85%;
+    }
+    .dsi{
+        padding-left: 35px;
+
+    }
+ }
+
+
+@media (max-width: 320px) {
+    .dsi div h2{
+        font-size: 15px;
+    }
+    .dsi div h3{
+        font-size: 15px;
+        width: 90%;
+
+    }
+    .dsi-two{
+        margin-left: 0;
+    }
+    .dsi div h1{
+        font-size: 21px;
+    }
+    .dsi div h4{
+        font-size: 17px;
+        width: 290px;
+
+    }
+}
+
